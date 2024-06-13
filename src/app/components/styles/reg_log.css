@@ -1,0 +1,68 @@
+.wrapper{
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    padding: 4rem 0;
+}
+
+.form{
+    border: 1px solid rgba(133, 135, 150, 0.4);
+    border-radius: 5px;
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+}
+
+.data__container{
+    margin-bottom: 15px;
+}
+
+.form__title{
+    margin-bottom: 8px;
+    color: rgb(133, 135, 150);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.form__input{
+    width: 100%;
+    color: rgb(133, 135, 150);
+    border: 1px solid rgba(133, 135, 150, 0.4);
+    font-size: 16px;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition-property: box-shadow;
+    transition-duration: 100ms;
+}
+
+.form__subtitle{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #858796;
+}
+
+.form__input:focus{
+    box-shadow: 0 0 0 4px rgba(77,108,250,.4);
+    outline: none;
+}
+
+.checkbox{
+    width: 18px;
+    height: 18px;
+}
+
+/* CLASS FOR LINKS */
+
+.form__link{
+    color: #4d6cfa;
+    cursor: pointer;
+}
+
+.form__link:hover{
+    text-decoration: underline;
+    color: rgb(27, 68, 255);
+}

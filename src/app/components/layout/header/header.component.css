@@ -1,0 +1,20 @@
+header{
+    width: 100%;
+    padding: 25px 0px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(110, 112, 126, .15);
+}
+
+.header{
+    width: 100%;
+    max-width: 85%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__link, .logo{
+    display: flex;
+    cursor: pointer;
+}
