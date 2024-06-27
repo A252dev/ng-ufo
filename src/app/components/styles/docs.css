@@ -1,0 +1,35 @@
+.wrapper{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 70%;
+    margin: 2.5rem auto;
+}
+
+.main__title{
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.title{
+    margin: 20px 0;
+    color: #3a3b45;
+    opacity: 0.7;
+}
+
+.subtitle{
+    margin-bottom: 20px;
+    color: #3a3b45;
+    opacity: 0.9;
+}
+
+.docs__link{
+    color: #4d6cfa;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.docs__link:hover{
+    color: #1b44ff;
+    text-decoration: underline;
+}
