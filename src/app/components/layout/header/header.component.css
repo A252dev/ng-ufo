@@ -18,3 +18,23 @@ header{
     display: flex;
     cursor: pointer;
 }
+
+.flag__container{
+    border: 2px solid transparent;
+    background: rgba(110, 112, 126, .15);
+    padding: 0.6rem 0.6rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.flag__container:hover{
+    border: 2px solid rgba(110, 112, 126, .15);
+}
+
+.flag{
+    padding: 0.6rem 0.6rem;
+}
+
+.on{
+    display: none;
+}

@@ -1,0 +1,128 @@
+<div class="profile__container">
+
+    <div class="action__links">
+
+        <div class="links__container">
+
+            <button type="menu"
+            class="profile__link selected"
+            [ngClass]="{selected: HomeSelected}"
+            (click)="toggleHome()"
+            i18n>
+            Home
+            </button>
+    
+            <button type="menu"
+            class="profile__link"
+            (click)="toggleTransfer()"
+            [ngClass]="{selected: TransferSelected}"
+            i18n>
+            Send and Receive
+            </button>
+    
+            <button type="menu"
+            class="profile__link"
+            (click)="toggleWallet()"
+            [ngClass]="{selected: WalletSelected}"
+            i18n>
+            Wallet
+            </button>
+    
+            <button type="menu"
+            class="profile__link"
+            (click)="toggleHistory()"
+            [ngClass]="{selected: HistorySelected}"
+            i18n>
+            History
+            </button>
+    
+            <button type="menu"
+            class="profile__link"
+            (click)="toggleHelp()"
+            [ngClass]="{selected: HelpSelected}"
+            i18n>
+            Help
+            </button>
+
+        </div>        
+
+    </div>
+
+    <div class="content__container">
+
+        <section class="left">
+
+            <section class="side">
+        
+                <div class="info__container">
+                    <h5 class="info__title" i18n>Balance</h5>
+                    <h4 class="balance">0.00 RUB</h4>
+    
+                    <button type="menu"
+                        style="margin: 1.2rem 0;
+                        padding: 0.4rem 0;
+                        width: 50%;"
+                        class="link border"
+                        (click)="toggleTransfer()"
+                        i18n>Tranfer Money
+                    </button>
+    
+                </div>
+                
+            </section>
+
+            <section class="side">
+                <h5 class="info__subtitle" i18n>Recent Activity</h5>
+    
+                    <p class="description" i18n>See when money comes in, and when it goes out. You’ll find your recent UFOPay history here.</p>
+                    
+                    <a class="link" (click)="toggleHistory()"
+                        style="margin: 0.6rem 0;
+                        padding: 0;
+                        font-size: 1.1rem;"
+                        i18n>Show all
+                    </a>
+                    <!-- <button type="menu"
+                        style="margin: 0.7rem 15px;"
+                        class="link border"
+                        (click)="toggleSettings()"
+                        >Settings
+                    </button>
+        
+                    <button type="menu"
+                        style="margin: 0.7rem 15px;"
+                        class="link border"
+                        (click)="toggleTransfer()"
+                        >Transfer
+                    </button> -->
+            </section>
+        </section>
+        
+    
+        <div class="right side" [ngClass]="{on: home}">
+            <h5 class="info__title" i18n>Home</h5>
+
+            <div class="block__container">
+                <!-- content -->
+            </div>
+            
+        </div>
+    
+        <div class="right side" [ngClass]="{on: tranfer}">
+            <h5 class="info__title" i18n>Transfer</h5>
+        </div>
+
+        <div class="right side" [ngClass]="{on: wallet}">
+            <h5 class="info__title" i18n>Wallet</h5>
+        </div>
+
+        <div class="right side" [ngClass]="{on: history}">
+            <h5 class="info__title" i18n>History</h5>
+        </div>
+
+        <div class="right side" [ngClass]="{on: help}">
+            <h5 class="info__title" i18n>Help</h5>
+        </div>
+
+    </div>    
+</div>

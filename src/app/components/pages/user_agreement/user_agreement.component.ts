@@ -4,7 +4,7 @@ import { Component } from "@angular/core";
     selector: 'user-agreements',
     standalone: true,
     templateUrl: './user_agreement.component.html',
-    styleUrl: '../../styles/docs.css'
+    styleUrl: '../../../styles/docs.css'
 })
 
 export class UserAgreements{

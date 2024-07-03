@@ -1,0 +1,115 @@
+.profile__container{
+    margin: 0 auto;
+    border: 1px solid blue;
+    /* display: flex; */
+}
+
+.action__links{
+    padding: 1.1rem 0;
+    background: #4d6cfa;
+    /* height: auto; */
+    box-sizing: border-box;
+}
+
+.links__container{
+    width: 100%;
+    max-width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.profile__link{
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.9rem;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.profile__link:hover{
+    border: 2px solid #1b44ff;
+}
+
+.selected{
+    background: #1b45ff;
+}
+
+.content__container{
+    padding: 3.2rem 0;
+    width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side{
+    border: 0.0625rem solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 5px;
+    padding: 1.3rem 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.left{
+    width: 25%;
+}
+
+.right{
+    width: 65%;
+}
+
+.info__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.info__title{
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 7px;
+}
+
+.info__subtitle{
+    font-size: 1.9rem;
+    margin-bottom: 7px;
+}
+
+.description{
+    font-size: 1.3rem;
+}
+
+.desc__link{
+
+}
+
+.balance{
+    font-size: 1.8rem;
+}
+
+.balance__button{
+    font-family: 'JetBrains Mono', 'Arial', sans-serif;
+    font-size: 2.4rem;
+    color: #4d6cfa;
+    font-weight: 700;
+    margin: 0;
+}
+
+.pf-button{
+    margin: 2rem 0;
+}
+
+.on{
+    display: none;
+}
+
+.block__container{
+    padding: 1.3rem 0;
+}
+

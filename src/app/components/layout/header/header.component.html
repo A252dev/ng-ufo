@@ -5,8 +5,31 @@
         <!-- <a class="logo__link" href="/"><img class="logo" [src]="<logo-image />"></a> -->
         
         <nav class="links__container">
-            <a class="link" routerLink="/login">Login</a>
-            <a class="link border" routerLink="/register">Register</a>
+
+            <a class="link" routerLink="/login"
+            i18n>Login
+            </a>
+
+            <a class="link border" routerLink="/register"
+            i18n>Register
+            </a>
+
+            <span class="flag__container"
+
+            [ngClass]="{on: ru}"
+            (click)="selectRU()"
+            >
+                <span class="fi fi-ru flag"></span>
+            </span>
+
+            <span class="flag__container"
+
+            [ngClass]="{on: en}"
+            (click)="selectEN()"
+            >
+                <span class="fi fi-gb flag"></span>
+            </span>
+
         </nav>
     </div>
 </header>

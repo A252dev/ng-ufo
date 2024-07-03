@@ -10,6 +10,6 @@ import { AppHome } from '../../pages/home/home.component';
     templateUrl: './layout.component.html'
 })
 
-export class AppLayout{
+export class AppLayoutEN{
 
 }

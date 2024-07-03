@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { AppHeader } from './components/layout/header/header.component';
-import { AppLayout } from './components/layout/index/layout.component';
+import { AppLayoutEN } from './components/layout//index/layout.component';
 import { AppFooter } from './components/layout/footer/footer.component';
 
 @Component({
@@ -10,7 +10,7 @@ import { AppFooter } from './components/layout/footer/footer.component';
   imports: [
     RouterOutlet, RouterLink,
     AppHeader,
-    AppLayout,
+    AppLayoutEN,
     AppFooter
   ],
   templateUrl: './app.component.html',
