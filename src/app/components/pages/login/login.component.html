@@ -1,18 +1,20 @@
 <section class="wrapper">
-    <form class="form" method="post">
+    <form class="form" [formGroup]="loginForm" method="post">
         <div class="data__container">
             <h5 class="form__title" i18n>Email</h5>
-            <input class="form__input" type="email" />
+            <h5 class="form__title"></h5>
+            <input class="form__input" formControlName="email" name="login" type="email" autocomplete="off" />
         </div>
         <div class="data__container">
             <h5 class="form__title" i18n>Password</h5>
-            <input class="form__input" type="password" />
+            <input class="form__input" formControlName="password" name="password" type="password" />
         </div>
         <div class="data__container">
             <h5 class="form__title" i18n>Keep login</h5>
             <input class="checkbox" type="checkbox" />
         </div>
-        <button class="button" type="submit" i18n>Login</button>
+        <input type="button" value="test" (click)="testLog()" />
+        <input class="button" type="button" (click)="onSubmit()" [disabled]="loginForm.invalid" i18n value="Login" />
         <a class="register__button" routerLink="/register" i18n>Create an account!</a>
     </form>
 </section>

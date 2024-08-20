@@ -11,12 +11,13 @@ import { AppRegister } from './components/pages/register/register.component';
 import { PrivacyPolicy } from './components/pages/privacy_policy/privacy_policy.component';
 import { DataProtection } from './components/pages/data_protection/data_protection.component';
 import { Profile } from './components/pages/profile/profile.component';
+import { AppLayout } from './components/layout/index/layout.component';
 
 export const routes: Routes = [
 
     // Ссылки для всех страниц
     
-    { path: "", component: AppHome },
+    { path: "", component: AppLayout },
 
     { path: "user_agreement", component: UserAgreements },
     { path: "privacy_policy", component: PrivacyPolicy },

@@ -1,32 +1,22 @@
 <header>
     <div class="header">
         <a class="logo__link" routerLink="/"><logo-image class="logo" /></a>
-        
+
         <!-- <a class="logo__link" href="/"><img class="logo" [src]="<logo-image />"></a> -->
-        
+
         <nav class="links__container">
 
-            <a class="link" routerLink="/login"
-            i18n>Login
-            </a>
+            <a class="link" [ngClass]="{on: login_link}" routerLink="/login" i18n>Login ({{ login_text }})</a>
 
-            <a class="link border" routerLink="/register"
-            i18n>Register
-            </a>
+            <a class="link border" [ngClass]="{on: register_link}" routerLink="/register" i18n>Register</a>
 
-            <span class="flag__container"
+            <a class="link border" [ngClass]="{on: logout_link}" (click)="logout()" i18n>Logout</a>
 
-            [ngClass]="{on: ru}"
-            (click)="selectRU()"
-            >
+            <span class="flag__container" [ngClass]="{on: ru}" (click)="selectRU()">
                 <span class="fi fi-ru flag"></span>
             </span>
 
-            <span class="flag__container"
-
-            [ngClass]="{on: en}"
-            (click)="selectEN()"
-            >
+            <span class="flag__container" [ngClass]="{on: en}" (click)="selectEN()">
                 <span class="fi fi-gb flag"></span>
             </span>
 

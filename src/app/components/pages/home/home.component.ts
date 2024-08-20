@@ -1,21 +1,18 @@
 import { Component } from "@angular/core";
-
-import { WelcomeInfo } from "./welcome/welcomeInfo.component";
-import { AboutInfo } from "./about/about.component";
-import { FAQInfo } from "./faq/faq.component";
+import { assetImage } from "../../UI/assetImage/assetImage.component";
+import { RouterLink } from "@angular/router";
 
 @Component({
     selector: 'app-home',
     standalone: true,
     imports: [
-        WelcomeInfo,
-        AboutInfo,
-        FAQInfo
+        RouterLink,
+        assetImage
     ],
     templateUrl: './home.component.html',
-    // styleUrl: './home.component.css'
+    styleUrl: './styles.css'
 })
 
-export class AppHome{
+export class AppHome {
 
 }

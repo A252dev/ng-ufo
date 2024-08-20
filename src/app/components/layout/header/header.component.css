@@ -1,10 +1,10 @@
-header{
+header {
     width: 100%;
     padding: 25px 0px;
     box-shadow: 0 .15rem 1.75rem 0 rgba(110, 112, 126, .15);
 }
 
-.header{
+.header {
     width: 100%;
     max-width: 85%;
     margin: 0 auto;
@@ -14,12 +14,13 @@ header{
     align-items: center;
 }
 
-.logo__link, .logo{
+.logo__link,
+.logo {
     display: flex;
     cursor: pointer;
 }
 
-.flag__container{
+.flag__container {
     border: 2px solid transparent;
     background: rgba(110, 112, 126, .15);
     padding: 0.6rem 0.6rem;
@@ -27,14 +28,14 @@ header{
     cursor: pointer;
 }
 
-.flag__container:hover{
+.flag__container:hover {
     border: 2px solid rgba(110, 112, 126, .15);
 }
 
-.flag{
+.flag {
     padding: 0.6rem 0.6rem;
 }
 
-.on{
+.on {
     display: none;
 }

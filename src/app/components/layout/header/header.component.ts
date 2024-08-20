@@ -1,12 +1,12 @@
-import { Component } from "@angular/core";
+import { Component, EventEmitter, Inject, Input, OnInit, Output } from "@angular/core";
 
-// Логотип
+// Logo
 import { LogoImage } from "../../UI/logoImage/logoImage.component";
 
-// Возможность переходить по ссылкам
-import { RouterLink, RouterOutlet } from "@angular/router";
+// Routes
+import { RouterLink, RouterOutlet, Router } from "@angular/router";
 
-// Для классов
+// For the classes
 import { NgClass } from "@angular/common";
 
 @Component({
@@ -16,29 +16,60 @@ import { NgClass } from "@angular/common";
         LogoImage,
         NgClass,
         RouterOutlet,
-        RouterLink
+        RouterLink, NgClass
     ],
     templateUrl: './header.component.html',
     styleUrl: './header.component.css'
 })
 
-export class AppHeader{
+export class AppHeader implements OnInit {
 
-    // Стили для отображения флагов стран. 'false' = флаг виден, 'true' = флаг не виден
+    login_link: boolean = false;
+    register_link: boolean = false;
+    logout_link: boolean = true;
+
+    @Input() login_text: string;
+
+    constructor(private router: Router) { }
+
+    ngOnInit(): void {
+
+        if (typeof window !== "undefined") {
+
+            if (window.location.pathname === '/profile') {
+                this.login_link = true;
+                this.register_link = true;
+                this.logout_link = false;
+                console.log('buttons is work...')
+            }
+
+        }
+
+    }
+    
+    logout() {
+        localStorage.removeItem("jwt");
+        this.router.navigateByUrl("/");
+        this.login_link = false;
+        this.register_link = false;
+        this.logout_link = true;
+    }
+
+    // Styles for shows the countries. 'false' = flag is shown, 'true' = flag is not shown
 
     ru: boolean = true;
     en: boolean = false;
 
-    // При клике на флаг RU
+    // Change on RU
 
-    selectRU(){
+    selectRU() {
         this.ru = true;
         this.en = false;
     }
 
-    // При клике на флаг EN
+    // Change on EN
 
-    selectEN(){
+    selectEN() {
         this.ru = false;
         this.en = true;
     }
