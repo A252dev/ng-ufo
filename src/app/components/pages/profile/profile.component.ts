@@ -1,5 +1,5 @@
-import { NgClass } from "@angular/common";
-import { Component, OnInit } from "@angular/core";
+import { DOCUMENT, NgClass } from "@angular/common";
+import { Component, Inject, OnInit } from "@angular/core";
 import { JwtService } from "../../../services/jwt.service";
 import { routes } from "../../../app.routes";
 import { ActivatedRoute, Router } from "@angular/router";
@@ -29,8 +29,16 @@ export class Profile implements OnInit {
     ngOnInit(): void {
 
         if (localStorage.getItem('jwt') == null) {
+            console.log("jwt is null!!!");
             this.router.navigateByUrl("login");
         }
+        // window.location.reload();
+
+        this.transferForm = this.fb.group({
+            toEmail: ['', [Validators.required, Validators.email]],
+            summa: ['', [Validators.required]],
+            currency: ['', [Validators.required]],
+        })
 
         this.profile();
     }
@@ -46,12 +54,6 @@ export class Profile implements OnInit {
     balance_rub: number = null;
 
     profile() {
-
-        this.transferForm = this.fb.group({
-            toEmail: ['', [Validators.required, Validators.email]],
-            summa: ['', [Validators.required]],
-            currency: ['', [Validators.required]],
-        })
 
         this.service.profile().subscribe(
             (response) => {
@@ -72,8 +74,9 @@ export class Profile implements OnInit {
     transferSubmit() {
         console.log(this.transferForm.value);
         this.action.transfer(this.transferForm.value).subscribe((response) => {
-            console.log("Transfer to " + response.toEmail + " is successed!");
-        })
+            console.log("Transfer to " + this.transferForm.get("toEmail") + " is successed!");
+            location.reload();
+        });
     }
 
 

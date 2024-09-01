@@ -19,9 +19,9 @@ export class AppLogin {
     constructor(
         private service: JwtService,
         private fb: FormBuilder,
-        private router: Router,
-    ) { 
-        
+        private router: Router
+    ) {
+
     }
 
     ngOnInit(): void {
@@ -33,16 +33,6 @@ export class AppLogin {
 
     }
 
-    login_text: string;
-    
-    testLog() {
-        console.log("log...");
-        const navigation = this.router.getCurrentNavigation();
-
-        console.log(navigation);
-        console.log(this.router.url);
-    }
-
     onSubmit() {
         console.log(this.loginForm.value);
 
@@ -51,7 +41,9 @@ export class AppLogin {
                 console.log('Your JWT token is: ' + response.token);
                 const jwtToken = response.token;
                 localStorage.setItem('jwt', jwtToken);
-                this.router.navigateByUrl("/profile");
+                this.router.navigate(["/profile"]).then(() => {
+                    window.location.reload();
+                });
             } else {
                 console.log("JWT is null!");
             }

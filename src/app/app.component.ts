@@ -16,32 +16,5 @@ import { AppFooter } from './components/layout/footer/footer.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent implements OnInit {
-
-
-  login_text: string;
-  ngOnInit(): void {
-
-    // if (window.location.pathname !== "undefined") {
-    //   if (window.location.pathname == "/login") {
-    //     console.log("hi.");
-    //   }
-    // }
-
-  }
-
-  // constructor(private router: Router){
-
-  //   const nav: Navigation = this.router.getCurrentNavigation();
-
-  //   if (nav.extras && nav.extras.state){
-  //     this.router.navigateByUrl(nav.extras.state.returnUrl);
-  //   }
-
-  //   const currentUrl = this.router.url;
-
-  //   this.router.navigate(["/login"], { returnUrl: currentUrl});
-
-  // }
-
+export class AppComponent {
 }

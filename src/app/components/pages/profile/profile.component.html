@@ -98,17 +98,18 @@
 
                 <div class="block__container">
                     <h3 class="input__title">To email:</h3>
-                    <input class="input__data" formControlName="toEmail" name="toEmail" type="email" autocomplete="off" />
+                    <input class="input__data" formControlName="toEmail" name="toEmail" type="email"
+                        autocomplete="off" />
                     <h3 class="input__title">Summa:</h3>
                     <input class="input__data" formControlName="summa" name="summa" type="number" autocomplete="off" />
                     <h3 class="input__title">Currency:</h3>
                     <select formControlName="currency" name="currency">
-                        <option value="rub" selected>RUB</option>
-                        <option value="usd">USD</option>
-                        <option value="eur">EUR</option>
+                        <option value="RUB" selected>RUB</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
                     </select>
                     <input type="button" class="button" (click)="transferSubmit()" [disabled]="transferForm.invalid"
-                        value="Transfer" />
+                        i18n value="Transfer" />
                 </div>
             </form>
         </div>
