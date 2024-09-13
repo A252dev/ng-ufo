@@ -1,57 +1,76 @@
 import { DOCUMENT, NgClass } from "@angular/common";
 import { Component, Inject, OnInit } from "@angular/core";
-import { JwtService } from "../../../services/jwt.service";
-import { routes } from "../../../app.routes";
+import { JwtService } from "../../services/jwt.service";
+import { routes } from "../../app.routes";
 import { ActivatedRoute, Router } from "@angular/router";
 import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from "@angular/forms";
-import { ActionService } from "../../../services/action.service";
+import { ActionService } from "../../services/action.service";
+import { AsyncLocalStorage } from "async_hooks";
+import { TransferSection } from "../../components/UI/profile/transfer-section/tranfer-section.component";
+import { delay } from "rxjs";
 
 @Component({
     selector: 'profile-page',
     standalone: true,
     imports: [
-        NgClass, FormsModule, ReactiveFormsModule
+        NgClass, FormsModule, ReactiveFormsModule,
+        TransferSection
     ],
     templateUrl: './profile.component.html',
-    styleUrl: './profile.component.css'
+    styleUrl: '../../styles/profile.css'
 })
 
 export class Profile implements OnInit {
 
     constructor(private service: JwtService,
-        private router: Router,
-        private fb: FormBuilder,
-        private action: ActionService
+        private router: Router
     ) { }
 
     transferForm: FormGroup | undefined;
 
     ngOnInit(): void {
 
-        if (localStorage.getItem('jwt') == null) {
-            console.log("jwt is null!!!");
-            this.router.navigateByUrl("login");
-        }
+        // if (localStorage.getItem('jwt') == null) {
+        //     console.log("jwt is null!!!");
+        //     this.router.navigateByUrl("login");
+        // } else {
+        //     this.profile();
+        // }
+        this.profile();
         // window.location.reload();
 
-        this.transferForm = this.fb.group({
-            toEmail: ['', [Validators.required, Validators.email]],
-            summa: ['', [Validators.required]],
-            currency: ['', [Validators.required]],
-        })
-
-        this.profile();
     }
 
-    title: string = null;
-    firstName: string = null;
-    secondName: string = null;
-    email: string = null;
-    birthday: string = null;
+    title: string;
+    firstName: string;
+    secondName: string;
+    email: string;
+    birthday: string;
 
-    balance_usd: number = null;
-    balance_eur: number = null;
-    balance_rub: number = null;
+    AUD: number;
+    BRL: number;
+    CAD: number;
+    CNY: number;
+    CZK: number;
+    DKK: number;
+    EUR: number;
+    HKD: number;
+    HUF: number;
+    ILS: number;
+    JPY: number;
+    MYR: number;
+    MXN: number;
+    TWD: number;
+    NZD: number;
+    NOK: number;
+    PHP: number;
+    PLN: number;
+    GBP: number;
+    SGD: number;
+    SEK: number;
+    CHF: number;
+    THB: number;
+    USD: number;
 
     profile() {
 
@@ -64,25 +83,33 @@ export class Profile implements OnInit {
                 this.email = response.info[0].email;
                 this.birthday = response.info[0].birthday;
 
-                this.balance_usd = response.info[1].balance_usd;
-                this.balance_eur = response.info[1].balance_eur;
-                this.balance_rub = response.info[1].balance_rub;
+                this.AUD = response.info[1].AUD;
+                this.BRL = response.info[1].BRL;
+                this.CAD = response.info[1].CAD;
+                this.CNY = response.info[1].CNY;
+                this.CZK = response.info[1].CZK;
+                this.DKK = response.info[1].DKK;
+                this.EUR = response.info[1].EUR;
+                this.HKD = response.info[1].HKD;
+                this.HUF = response.info[1].HUF;
+                this.ILS = response.info[1].ILS;
+                this.JPY = response.info[1].JPY;
+                this.MYR = response.info[1].MYR;
+                this.MXN = response.info[1].MXN;
+                this.TWD = response.info[1].TWD;
+                this.NZD = response.info[1].NZD;
+                this.NOK = response.info[1].NOK;
+                this.PHP = response.info[1].PHP;
+                this.PLN = response.info[1].PLN;
+                this.GBP = response.info[1].GBP;
+                this.SGD = response.info[1].SGD;
+                this.SEK = response.info[1].SEK;
+                this.CHF = response.info[1].CHF;
+                this.THB = response.info[1].THB;
+                this.USD = response.info[1].USD;
             }
         )
     }
-
-    transferSubmit() {
-        console.log(this.transferForm.value);
-        this.action.transfer(this.transferForm.value).subscribe((response) => {
-            console.log("Transfer to " + this.transferForm.get("toEmail") + " is successed!");
-            location.reload();
-        });
-    }
-
-
-
-
-
 
     home: boolean = true;
     tranfer: boolean = false;
@@ -96,6 +123,7 @@ export class Profile implements OnInit {
     HistorySelected: boolean = false;
     HelpSelected: boolean = false;
 
+    activeLink: string;
 
     toggleHome() {
         this.home = false;

@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { assetImage } from "../../UI/assetImage/assetImage.component";
+import { assetImage } from "../../components/UI/img/assetImage/assetImage.component";
 import { RouterLink } from "@angular/router";
 
 @Component({

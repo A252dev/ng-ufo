@@ -1,7 +1,6 @@
 <div class="profile__container">
 
     <div class="action__links">
-
         <div class="links__container">
 
             <button type="menu" class="profile__link selected" [ngClass]="{selected: HomeSelected}"
@@ -29,7 +28,6 @@
             </button>
 
         </div>
-
     </div>
 
     <div class="content__container">
@@ -57,7 +55,7 @@
                 <p class="description" i18n>See when money comes in, and when it goes out. You’ll find your recent
                     UFOPay history here.</p>
 
-                <a class="link" (click)="toggleHistory()" style="margin: 0.6rem 0;
+                <a class="link" style="margin: 0.6rem 0;
                         padding: 0;
                         font-size: 1.1rem;" i18n>Show all
                 </a>
@@ -93,34 +91,37 @@
         </div>
 
         <div class="right side" [ngClass]="{on: tranfer}">
-            <form [formGroup]="transferForm" method="post">
-                <h5 class="info__title" i18n>Transfer</h5>
-
-                <div class="block__container">
-                    <h3 class="input__title">To email:</h3>
-                    <input class="input__data" formControlName="toEmail" name="toEmail" type="email"
-                        autocomplete="off" />
-                    <h3 class="input__title">Summa:</h3>
-                    <input class="input__data" formControlName="summa" name="summa" type="number" autocomplete="off" />
-                    <h3 class="input__title">Currency:</h3>
-                    <select formControlName="currency" name="currency">
-                        <option value="RUB" selected>RUB</option>
-                        <option value="USD">USD</option>
-                        <option value="EUR">EUR</option>
-                    </select>
-                    <input type="button" class="button" (click)="transferSubmit()" [disabled]="transferForm.invalid"
-                        i18n value="Transfer" />
-                </div>
-            </form>
+            <transfer-section></transfer-section>
         </div>
 
         <div class="right side" [ngClass]="{on: wallet}">
             <h5 class="info__title" i18n>Wallet</h5>
 
             <div class="block__container">
-                <h3 class="input__title">{{ balance_usd }} $</h3>
-                <h3 class="input__title">{{ balance_eur }} €</h3>
-                <h3 class="input__title">{{ balance_rub }} ₽</h3>
+                <h3 class="input__title">{{ AUD }} Australian dollar</h3>
+                <h3 class="input__title">{{ BRL }} Brazilian real</h3>
+                <h3 class="input__title">{{ CAD }} Canadian dollar </h3>
+                <h3 class="input__title">{{ CNY }} Chinese Renmenbi</h3>
+                <h3 class="input__title">{{ CZK }} Czech koruna</h3>
+                <h3 class="input__title">{{ DKK }} Danish krone</h3>
+                <h3 class="input__title">{{ EUR }} Euro</h3>
+                <h3 class="input__title">{{ HKD }} Hong Kong dollar</h3>
+                <h3 class="input__title">{{ HUF }} Hungarian forint</h3>
+                <h3 class="input__title">{{ ILS }} Israeli new shekel</h3>
+                <h3 class="input__title">{{ JPY }} Japanese yen</h3>
+                <h3 class="input__title">{{ MYR }} Malaysian ringgit</h3>
+                <h3 class="input__title">{{ MXN }} Mexican peso</h3>
+                <h3 class="input__title">{{ TWD }} New Taiwan dollar</h3>
+                <h3 class="input__title">{{ NZD }} New Zealand dollar</h3>
+                <h3 class="input__title">{{ NOK }} Norwegian krone</h3>
+                <h3 class="input__title">{{ PHP }} Philippine peso</h3>
+                <h3 class="input__title">{{ PLN }} Polish złoty</h3>
+                <h3 class="input__title">{{ GBP }} Pound sterling</h3>
+                <h3 class="input__title">{{ SGD }} Singapore dollar</h3>
+                <h3 class="input__title">{{ SEK }} Swedish krona</h3>
+                <h3 class="input__title">{{ CHF }} Swiss franc</h3>
+                <h3 class="input__title">{{ THB }} Thai baht</h3>
+                <h3 class="input__title">{{ USD }} United States dollar</h3>
             </div>
 
         </div>

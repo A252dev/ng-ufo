@@ -25,19 +25,21 @@ export class JwtService {
   }
 
   profile(): Observable<any> {
-    return this.http.get(this.settings.getUrl() + 'profile/test', {
+    return this.http.get(this.settings.getUrl() + 'profile/index', {
       headers: this.createAuthorizationHeader()
     })
   }
 
   private createAuthorizationHeader() {
-    const jwtToken = localStorage.getItem('jwt');
-    if (jwtToken) {
-      return new HttpHeaders().set(
-        "Authorization", "Bearer " + jwtToken
-      )
-    } else {
-      console.log("JWT token not found in your local storage!");
+    if (typeof window !== 'undefined') {
+      const jwtToken = window.localStorage.getItem('jwt');
+      if (jwtToken) {
+        return new HttpHeaders().set(
+          "Authorization", "Bearer " + jwtToken
+        )
+      } else {
+        console.log("JWT token not found in your local storage!");
+      }
     }
     return null;
   }

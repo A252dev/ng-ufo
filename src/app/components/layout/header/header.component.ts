@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Inject, Input, OnInit, Output } from "@angular/core";
 
 // Logo
-import { LogoImage } from "../../UI/logoImage/logoImage.component";
+import { LogoImage } from "../../UI/img/logoImage/logoImage.component";
 
 // Routes
 import { RouterLink, RouterOutlet, Router, ActivatedRoute } from "@angular/router";
@@ -38,7 +38,16 @@ export class AppHeader implements OnInit {
                 this.login_link = true;
                 this.register_link = true;
                 this.logout_link = false;
-                console.log('buttons is work...')
+                // console.log('buttons is work...');
+
+                if (window.localStorage.getItem('jwt') == null) {
+                    // console.log("jwt is null!!!");
+                    this.login_link = false;
+                    this.register_link = false;
+                    this.logout_link = true;
+                    this.router.navigateByUrl("login");
+                }
+
             }
 
         }

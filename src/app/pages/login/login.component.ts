@@ -1,15 +1,15 @@
 import { Component, Output } from "@angular/core";
 import { Router, RouterLink } from "@angular/router";
 import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from "@angular/forms";
-import { JwtService } from "../../../services/jwt.service";
-import { AppHeader } from "../../layout/header/header.component";
+import { JwtService } from "../../services/jwt.service";
+import { AppHeader } from "../../components/layout/header/header.component";
 
 @Component({
     selector: 'app-login',
     standalone: true,
     imports: [RouterLink, FormsModule, ReactiveFormsModule],
     templateUrl: './login.component.html',
-    styleUrl: '../../../styles/reg_log.css'
+    styleUrl: '../../styles/reg_log.css'
 })
 
 export class AppLogin {

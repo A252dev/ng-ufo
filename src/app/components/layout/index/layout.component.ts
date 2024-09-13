@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AppHome } from '../../pages/home/home.component';
+import { AppHome } from '../../../pages/home/home.component';
 import { AppHeader } from "../header/header.component";
 import { AppFooter } from "../footer/footer.component";
 

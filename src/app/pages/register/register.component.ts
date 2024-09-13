@@ -1,14 +1,14 @@
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, FormsModule, Validators, ReactiveFormsModule } from "@angular/forms";
 import { Router, RouterLink } from "@angular/router";
-import { JwtService } from "../../../services/jwt.service";
+import { JwtService } from "../../services/jwt.service";
 
 @Component({
     selector: 'app-register',
     standalone: true,
     imports: [RouterLink, FormsModule, ReactiveFormsModule],
     templateUrl: './register.component.html',
-    styleUrl: '../../../styles/reg_log.css'
+    styleUrl: '../../styles/reg_log.css'
 })
 
 export class AppRegister implements OnInit {

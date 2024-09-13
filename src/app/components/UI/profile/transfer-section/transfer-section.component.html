@@ -1,0 +1,39 @@
+<form [formGroup]="transferForm" method="post">
+    <h5 class="info__title" i18n>Transfer</h5>
+
+    <div class="block__container">
+        <h3 class="input__title" i18n>To email:</h3>
+        <input class="input__data" formControlName="toEmail" name="toEmail" type="email" autocomplete="off" />
+        <h3 class="input__title" i18n>Summa:</h3>
+        <input class="input__data" formControlName="summa" name="summa" type="number" autocomplete="off" />
+        <h3 class="input__title" i18n>Currency:</h3>
+        <select formControlName="currency" name="currency">
+            <option value="AUD" selected>Australian dollar (AUD)</option>
+            <option value="BRL">Brazilian real (BRL)</option>
+            <option value="CAD">Canadian dollar (CAD)</option>
+            <option value="CNY">Chinese Renmenbi (CNY)</option>
+            <option value="CZK">Czech koruna (CZK)</option>
+            <option value="DKK">Danish krone (DKK)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="HKD">Hong Kong dollar (HKD)</option>
+            <option value="HUF">Hungarian forint (HUF)</option>
+            <option value="ILS">Israeli new shekel (ILS)</option>
+            <option value="JPY">Japanese yen (JPY)</option>
+            <option value="MYR">Malaysian ringgit (MYR)</option>
+            <option value="MXN">Mexican peso (MXN)</option>
+            <option value="TWD">New Taiwan dollar (TWD)</option>
+            <option value="NZD">New Zealand dollar (NZD)</option>
+            <option value="NOK">Norwegian krone (NOK)</option>
+            <option value="PHP">Philippine peso (PHP)</option>
+            <option value="PLN">Polish złoty (PLN)</option>
+            <option value="GBP">Pound sterling (GBP)</option>
+            <option value="SGD">Singapore dollar (SGD)</option>
+            <option value="SEK">Swedish krona (SEK)</option>
+            <option value="CHF">Swiss franc (CHF)</option>
+            <option value="THB">Thai baht (THB)</option>
+            <option value="USD">United States dollar (USD)</option>
+        </select>
+        <input type="button" class="button" (click)="transferSubmit()" [disabled]="transferForm.invalid" i18n
+            value="Transfer" />
+    </div>
+</form>

@@ -19,4 +19,13 @@ export class ActionService {
     )
   }
 
+  convert(convertRequest: any): Observable<any> {
+    console.log(convertRequest);
+    let headers = new HttpHeaders();
+    headers = headers.set("Authorization", "Bearer " + localStorage.getItem("jwt"));
+    return this.http.post(
+      this.settings.getUrl() + 'profile/convert', convertRequest, { headers: headers }
+    )
+  }
+
 }
