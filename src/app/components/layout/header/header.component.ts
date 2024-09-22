@@ -32,25 +32,25 @@ export class AppHeader implements OnInit {
 
     ngOnInit(): void {
 
-        if (typeof window !== "undefined") {
+        // if (typeof window !== "undefined") {
 
-            if (window.location.pathname === '/profile') {
-                this.login_link = true;
-                this.register_link = true;
-                this.logout_link = false;
-                // console.log('buttons is work...');
+        //     if (window.location.pathname === '/profile') {
+        //         this.login_link = true;
+        //         this.register_link = true;
+        //         this.logout_link = false;
+        //         // console.log('buttons is work...');
 
-                if (window.localStorage.getItem('jwt') == null) {
-                    // console.log("jwt is null!!!");
-                    this.login_link = false;
-                    this.register_link = false;
-                    this.logout_link = true;
-                    this.router.navigateByUrl("login");
-                }
+        //         if (window.localStorage.getItem('jwt') == null) {
+        //             // console.log("jwt is null!!!");
+        //             this.login_link = false;
+        //             this.register_link = false;
+        //             this.logout_link = true;
+        //             // this.router.navigateByUrl("login");
+        //         }
 
-            }
+        //     }
 
-        }
+        // }
 
     }
 

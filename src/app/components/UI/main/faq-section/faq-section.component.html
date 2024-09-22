@@ -1,0 +1,47 @@
+<div ngbAccordion class="q__container" [closeOthers]="true">
+
+    <div ngbAccordionItem="first">
+        <h4 ngbAccordionHeader>
+            <button ngbAccordionButton i18n>Q: How does it work?</button>
+        </h4>
+        <div ngbAccordionCollapse>
+            <div ngbAccordionBody>
+                <ng-template i18n>
+                    A: The service detects the card issuer and sends simultaneous requests for
+                    authorization and crediting to your balance in encrypted form, providing information control
+                    over
+                    transaction statuses.
+                </ng-template>
+            </div>
+        </div>
+    </div>
+
+    <div ngbAccordionItem="second">
+        <h4 ngbAccordionHeader>
+            <button ngbAccordionButton i18n>Q: Can I pay with my phone?</button>
+        </h4>
+        <div ngbAccordionCollapse>
+            <div ngbAccordionBody>
+                <ng-template i18n>
+                    A: Yes. The transaction takes place through the Internet browser of any device,
+                    including a smartphone.
+                </ng-template>
+            </div>
+        </div>
+    </div>
+
+    <div ngbAccordionItem="third">
+        <h4 ngbAccordionHeader>
+            <button ngbAccordionButton i18n>Q: Is it safe?</button>
+        </h4>
+        <div ngbAccordionCollapse>
+            <div ngbAccordionBody>
+                <ng-template i18n>
+                    A: Yes. Data is securely protected and encrypted in accordance with the PCI DSS
+                    3.2 Level 1 security certificate.
+                </ng-template>
+            </div>
+        </div>
+    </div>
+
+</div>

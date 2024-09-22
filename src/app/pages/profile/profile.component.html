@@ -49,7 +49,7 @@
 
             </section>
 
-            <section class="side">
+            <section class="side" id="recent_activity">
                 <h5 class="info__subtitle" i18n>Recent Activity</h5>
 
                 <p class="description" i18n>See when money comes in, and when it goes out. You’ll find your recent
@@ -136,11 +136,11 @@
                     <th>Summa</th>
                     <th>Currency</th>
                 </tr>
-                <tr>
-                    <td>1</td>
-                    <td>mail2maail.com</td>
-                    <td>100</td>
-                    <td>$</td>
+                <tr *ngFor="let line of transactionHistory">
+                    <td>{{ line.userId }}</td>
+                    <td>{{ line.toUserId }}</td>
+                    <td>{{ line.summa }}</td>
+                    <td>{{ line.currency }}</td>
                 </tr>
             </table>
 
@@ -148,7 +148,9 @@
 
         <div class="right side" [ngClass]="{on: help}">
             <h5 class="info__title" i18n>Help</h5>
+            <add-balance-section></add-balance-section>
         </div>
 
     </div>
+
 </div>

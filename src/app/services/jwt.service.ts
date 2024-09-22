@@ -6,6 +6,7 @@ import { SettingsService } from './settings.service';
 @Injectable({
   providedIn: 'root'
 })
+
 export class JwtService {
 
   constructor(private http: HttpClient, private settings: SettingsService) {
@@ -28,6 +29,12 @@ export class JwtService {
     return this.http.get(this.settings.getUrl() + 'profile/index', {
       headers: this.createAuthorizationHeader()
     })
+  }
+
+  getHistory(): Observable<any> {
+    let headers = new HttpHeaders();
+    headers = headers.set("Authorization", "Bearer " + localStorage.getItem("jwt"));
+    return this.http.get(this.settings.getUrl() + 'profile/history', { headers: headers });
   }
 
   private createAuthorizationHeader() {

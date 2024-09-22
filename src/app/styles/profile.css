@@ -2,6 +2,12 @@
     margin: 0 auto;
     /* border: 1px solid blue; */
     /* display: flex; */
+
+    @media(max-width: 1100px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .action__links {
@@ -30,6 +36,10 @@
     padding: 5px 15px;
     border-radius: 5px;
     border: 2px solid transparent;
+
+    @media(max-width: 1100px) {
+        font-size: 1.0rem;
+    }
 }
 
 .profile__link:hover {
@@ -47,6 +57,17 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+
+    @media(max-width: 1100px) {
+        display: inline-flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        align-items: center;
+
+        #recent_activity {
+            display: none;
+        }
+    }
 }
 
 .side {
@@ -59,10 +80,19 @@
 
 .left {
     width: 25%;
+
+    @media(max-width: 1100px) {
+        width: 80%;
+        align-items: center;
+    }
 }
 
 .right {
     width: 65%;
+
+    @media(max-width: 1100px) {
+        width: 80%;
+    }
 }
 
 .info__container {
@@ -112,6 +142,10 @@
     display: flex;
     flex-direction: column;
     width: 40%;
+
+    @media(max-width: 1100px) {
+        width: 100%;
+    }
 }
 
 .input__title {

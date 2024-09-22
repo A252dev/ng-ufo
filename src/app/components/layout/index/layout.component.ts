@@ -6,14 +6,14 @@ import { AppFooter } from "../footer/footer.component";
 @Component({
     selector: 'app-layout',
     imports: [
-    AppHome,
-    AppHeader,
-    AppFooter
-],
+        AppHome,
+        AppHeader,
+        AppFooter
+    ],
     standalone: true,
     templateUrl: './layout.component.html'
 })
 
-export class AppLayout{
+export class AppLayout {
 
 }

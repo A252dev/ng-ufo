@@ -2,6 +2,328 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/alert/alert.ts</context>
+          <context context-type="linenumber">66,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION" equiv-text="viorSubject(thi"/> of <x id="INTERPOLATION_1" equiv-text=");
+	private _pa"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">150,152</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">186,187</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">91,93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">290,291</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">302</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">315,317</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">325,326</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">345,348</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">361</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">378,381</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">397,399</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="imated;
+
+	/**"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/progressbar/progressbar.ts</context>
+          <context context-type="linenumber">65,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">233,235</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">255</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">271</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">289,290</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">301,302</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">314,317</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">338,340</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">358,359</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">372,376</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">393,395</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">417,419</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">434</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/toast/toast.ts</context>
+          <context context-type="linenumber">94,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8145078583561558213" datatype="html">
+        <source>Q: How does it work?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/main/faq-section/faq-section.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7492474116654112365" datatype="html">
+        <source> A: The service detects the card issuer and sends simultaneous requests for authorization and crediting to your balance in encrypted form, providing information control over transaction statuses. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/main/faq-section/faq-section.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1838564966479356729" datatype="html">
+        <source>Q: Can I pay with my phone?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/main/faq-section/faq-section.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5845398747012780626" datatype="html">
+        <source> A: Yes. The transaction takes place through the Internet browser of any device, including a smartphone. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/main/faq-section/faq-section.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="629984951264879678" datatype="html">
+        <source>Q: Is it safe?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/main/faq-section/faq-section.component.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7440929547285418581" datatype="html">
+        <source> A: Yes. Data is securely protected and encrypted in accordance with the PCI DSS 3.2 Level 1 security certificate. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/main/faq-section/faq-section.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5724242619380350540" datatype="html">
+        <source>Add Balance</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/profile/add-balance-section/add-balance-section.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="178954477003482868" datatype="html">
+        <source>Summa:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/profile/add-balance-section/add-balance-section.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/profile/transfer-section/transfer-section.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="418181782238044096" datatype="html">
+        <source>Currency:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/profile/add-balance-section/add-balance-section.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/profile/transfer-section/transfer-section.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8402696305361715603" datatype="html">
+        <source>Transfer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/profile/transfer-section/transfer-section.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2503221791165467590" datatype="html">
+        <source>To email:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/UI/profile/transfer-section/transfer-section.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="427930707742747059" datatype="html">
         <source>Developers</source>
         <context-group purpose="location">
@@ -44,7 +366,7 @@
           <context context-type="linenumber">27</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">3,5</context>
         </context-group>
       </trans-unit>
@@ -55,1573 +377,1517 @@
           <context context-type="linenumber">28,29</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">3,5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5173115640670709698" datatype="html">
-        <source>Login </source>
+      <trans-unit id="2454050363478003966" datatype="html">
+        <source>Авторизация</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/header/header.component.html</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="linenumber">9,11</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2213356766114647997" datatype="html">
-        <source>Register </source>
+      <trans-unit id="3301086086650990787" datatype="html">
+        <source>Регистрация</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/header/header.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">11,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3797778920049399855" datatype="html">
+        <source>Logout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layout/header/header.component.html</context>
+          <context context-type="linenumber">13,15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="123842545276072825" datatype="html">
         <source>General information</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">5,6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5001933098931475727" datatype="html">
         <source>The UFOPay system takes the security of customers&apos; personal information seriously and uses this information provided by customers only in accordance with the terms of this Privacy Policy. In order to take advantage of certain UFOPay services and reduce the incidence of fraud and theft, our system asks you for information about yourself and your credit or debit card when you make card payments through the UFOPay system for the first time.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">6,8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1336772655266436313" datatype="html">
         <source>Opening an electronic account</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">8,9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6720281633470706331" datatype="html">
         <source>To open an electronic account in the UFOPay system, you will need to provide your first and last name, address, city and email address. You can also open a business account, for this you will need to provide documents about your company. The business account can be funded from your company&apos;s bank account.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">9,11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="12336926321210606" datatype="html">
         <source>Data and profile</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">11,12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4074358130920303218" datatype="html">
         <source>From time to time, our UFOPay system may invite our customers to complete additional questionnaires and take part in surveys. This is done both to collect demographic information and to determine the needs of our customers, as well as to assess the quality of the services we provide.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">12,14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7334795374397385499" datatype="html">
         <source>Account data security</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">14,15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3243884185755404617" datatype="html">
         <source>To expand limits through the UFOPay system, you may, but are not required to provide credit or debit card information (without a secret code) or information about your personal bank account. We may also ask you to answer various questions to verify the security of your account. We may need this information to process your transactions, request a new password if you forget or lose your password, protect against theft of data from your card, prevent fraud and theft of your account, and to contact you, and when we need administer your account. In order to protect against possible fraud and theft, we verify all the information you have provided to us. We use this information to provide you with security when using our services, to process your transactions, and to maintain the overall security of our customer service and to improve the products and services we provide. All contact information is collected on servers located in the EU. We provide access to personal information about our customers only to the technical staff of the company, who is obliged to promptly and efficiently fulfill requests for servicing our customers. If you are a registered user in the UFOPay system, your name, email address and account type may be displayed to other UFOPay customers in order to fulfill requests for assistance to our customers efficiently and quickly. If you are a registered user in the UFOPay system, your name, email address and account type may be displayed to other UFOPay customers.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">15,17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="691425468689733298" datatype="html">
         <source>Account transaction information</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">17,18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4323769574169544925" datatype="html">
         <source>When sending or receiving funds through the UFOPay payment system, we may ask you to provide information about each such transaction, including the total amount and the user (sender) name. All this information is stored and never released without a formal request. We also store all IP addresses used to log into your account. All these measures are aimed at preventing fraud and theft.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">18,20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4054780362042659566" datatype="html">
         <source>About traffic data</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">20,21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2938605244465455478" datatype="html">
         <source>If you are a registered user of the UFOPay system, your name, email address and account type may be displayed to other customers of the system. Your card and bank account number, as well as other financial information, will never be transferred to third parties, unless otherwise provided in accordance with the law. Cookies, which are small data files stored on your device, allow us to recognize you as a customer of our system if you return to ufopay.io using the same device and browser. We send a session cookie to your device when you log in with your email address to your UFOPay account by entering your email address and password. These cookies allow us to recognize you if you visit multiple pages of our site in the same session without having to re-enter your password. Once you log out of UFOPay or close your browser, the cookie data session will expire and no longer have any effect.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">21,23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="348199829413685147" datatype="html">
         <source>Information about third parties</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">23,24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6809226392021466788" datatype="html">
         <source>All information provided by you as described above will not be disclosed by us to third parties without a formal request. If you send or receive a large number of payments that go through the UFOPay system, in some cases we may perform additional verification of your business (only for business accounts) by requesting information about you and your business activity from credit reference bureaus or business information. service. The UFOPay system is not responsible for the consequences that have arisen in the event that the client discloses information about his account in the UFOPay system. We also reserve the right to review customer activity reports on accounts at random from time to time and reserve the right to terminate accounts if information we receive indicates that an account is associated with fraud or theft.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">24,26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5647092640675423606" datatype="html">
         <source>Customer service</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">26,27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8041577796890817803" datatype="html">
         <source>All your correspondence with the technical specialists of the UFOPay system is conducted in your personal account. This is done in order to control the quality of the services we provide to our clients. Saving this correspondence (information) also helps us in the investigation of fraud and theft.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">27,29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8858264913787330289" datatype="html">
         <source>DDoS protection</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">29,30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7665958459832279450" datatype="html">
         <source>The site is securely protected from DDoS attacks via <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;docs__link&quot; href=&quot;https://www.cloudflare.com&quot; target=&quot;_blank&quot;&gt;"/>Cloudflare<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/data_protection/data_protection.component.html</context>
+          <context context-type="sourcefile">src/app/pages/data_protection/data_protection.component.html</context>
           <context context-type="linenumber">30,32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1579573828163559080" datatype="html">
-        <source>What is our service suitable for?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/about/about.component.html</context>
-          <context context-type="linenumber">2,4</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7165752655420971992" datatype="html">
-        <source>Integration</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/about/about.component.html</context>
-          <context context-type="linenumber">10,11</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="281906248254466431" datatype="html">
-        <source>Solve complex business problems with a simple <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;blue__text&quot;&gt;"/>API<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Everything you need to accept payments.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/about/about.component.html</context>
-          <context context-type="linenumber">11,12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8936258334132388405" datatype="html">
-        <source>Provision of services</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/about/about.component.html</context>
-          <context context-type="linenumber">18,19</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8694778117343102569" datatype="html">
-        <source>Do you teach a foreign language? You no longer need a bank terminal. Show the QR code to your client and the funds will instantly be credited to your card.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/about/about.component.html</context>
-          <context context-type="linenumber">19,20</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8885670823626242254" datatype="html">
-        <source>Donations</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/about/about.component.html</context>
-          <context context-type="linenumber">26,27</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8012927289266296459" datatype="html">
-        <source>Stream your parties? Get donations by adding a payment link to the stream description. Don&apos;t worry about which country or bank the transfer is coming from. No recalls, payments, and no expectations.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/about/about.component.html</context>
-          <context context-type="linenumber">27,28</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="9221730911539762110" datatype="html">
-        <source>Frequently Asked Questions</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/faq/faq.component.html</context>
-          <context context-type="linenumber">2,4</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8145078583561558213" datatype="html">
-        <source>Q: How does it work?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/faq/faq.component.html</context>
-          <context context-type="linenumber">5,6</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5631690983592317546" datatype="html">
-        <source>A: The service detects the card issuer and sends simultaneous requests for authorization and crediting to your balance in encrypted form, providing information control over transaction statuses.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/faq/faq.component.html</context>
-          <context context-type="linenumber">6,7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1838564966479356729" datatype="html">
-        <source>Q: Can I pay with my phone?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/faq/faq.component.html</context>
-          <context context-type="linenumber">9,10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8018894925916453680" datatype="html">
-        <source>A: Yes. The transaction takes place through the Internet browser of any device, including a smartphone.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/faq/faq.component.html</context>
-          <context context-type="linenumber">10,11</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="629984951264879678" datatype="html">
-        <source>Q: Is it safe?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/faq/faq.component.html</context>
-          <context context-type="linenumber">13,14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3597444303709224893" datatype="html">
-        <source>A: Yes. Data is securely protected and encrypted in accordance with the PCI DSS 3.2 Level 1 security certificate.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/faq/faq.component.html</context>
-          <context context-type="linenumber">14,15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9101743980467985723" datatype="html">
         <source>The project is under development, you see an interactive DEMO version made by a252.dev.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/welcome/welcomeInfo.component.html</context>
-          <context context-type="linenumber">2,4</context>
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">3,4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7303044610887257256" datatype="html">
         <source>Accept and send payments <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;blue__text&quot;&gt;"/>all over the world<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/welcome/welcomeInfo.component.html</context>
-          <context context-type="linenumber">6,7</context>
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">8,9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4467133992573223649" datatype="html">
         <source>Receive payments on the website, social networks or instant messengers from any country.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/welcome/welcomeInfo.component.html</context>
-          <context context-type="linenumber">7,8</context>
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">9,10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4688544854505375090" datatype="html">
         <source>Start accepting payments</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/welcome/welcomeInfo.component.html</context>
-          <context context-type="linenumber">8</context>
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="184520213747999802" datatype="html">
         <source>Commission from <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span style=&quot;font-weight: 700;&quot;&gt;"/>0.7%<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/home/welcome/welcomeInfo.component.html</context>
-          <context context-type="linenumber">8,9</context>
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1579573828163559080" datatype="html">
+        <source>What is our service suitable for?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">21,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7165752655420971992" datatype="html">
+        <source>Integration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="305705979444790027" datatype="html">
+        <source>Solve complex business problems with a simple <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;blue__text&quot;&gt;"/>API<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. Everything you need to accept payments. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">31,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8936258334132388405" datatype="html">
+        <source>Provision of services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8694778117343102569" datatype="html">
+        <source>Do you teach a foreign language? You no longer need a bank terminal. Show the QR code to your client and the funds will instantly be credited to your card.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8885670823626242254" datatype="html">
+        <source>Donations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8012927289266296459" datatype="html">
+        <source>Stream your parties? Get donations by adding a payment link to the stream description. Don&apos;t worry about which country or bank the transfer is coming from. No recalls, payments, and no expectations.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">52,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9221730911539762110" datatype="html">
+        <source>Frequently Asked Questions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">60,62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4768749765465246664" datatype="html">
         <source>Email</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/login/login.component.html</context>
+          <context context-type="sourcefile">src/app/pages/login/login.component.html</context>
           <context context-type="linenumber">4,5</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/register/register.component.html</context>
+          <context context-type="sourcefile">src/app/pages/register/register.component.html</context>
           <context context-type="linenumber">16,17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1431416938026210429" datatype="html">
         <source>Password</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/login/login.component.html</context>
-          <context context-type="linenumber">8,9</context>
+          <context context-type="sourcefile">src/app/pages/login/login.component.html</context>
+          <context context-type="linenumber">9,10</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/register/register.component.html</context>
+          <context context-type="sourcefile">src/app/pages/register/register.component.html</context>
           <context context-type="linenumber">20,21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6690915218074890095" datatype="html">
         <source>Keep login</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/login/login.component.html</context>
-          <context context-type="linenumber">12,13</context>
+          <context context-type="sourcefile">src/app/pages/login/login.component.html</context>
+          <context context-type="linenumber">13,14</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/register/register.component.html</context>
-          <context context-type="linenumber">33,34</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2454050363478003966" datatype="html">
-        <source>Login</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/login/login.component.html</context>
-          <context context-type="linenumber">15,16</context>
+          <context context-type="sourcefile">src/app/pages/register/register.component.html</context>
+          <context context-type="linenumber">34,35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1647537387449809298" datatype="html">
         <source>Create an account!</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/login/login.component.html</context>
-          <context context-type="linenumber">16,17</context>
+          <context context-type="sourcefile">src/app/pages/login/login.component.html</context>
+          <context context-type="linenumber">17,18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1547655406612022025" datatype="html">
         <source>This Privacy Policy (hereinafter referred to as the &quot;Policy&quot;) applies to individuals who are Users of the UFOPay payment service (hereinafter referred to as the &quot;Service&quot;) when Users make transactions using the Service. The Policy applies to all information that the Service Operator can obtain about the User in the process of using the Service.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">5,6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6761073678347549082" datatype="html">
         <source>The terms used in this Policy are used in the meaning that they have in the Public Offer on the use of the UFOPay payment service (hereinafter referred to as the Offer). The use of the Service means the User&apos;s unconditional acceptance of all the terms of the Offer without any exceptions and limitations of the terms of accession and the User&apos;s unconditional consent to this Policy and the terms of information processing specified therein. In case of disagreement with these terms, the User must not use the Service.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">6,8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="327176373470481508" datatype="html">
         <source>1. Information about users received and processed by the Service Operator:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">8,9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8530738588026362600" datatype="html">
         <source>1.1. For the purposes of this Policy, information about the User means:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">9,10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1340150407276236043" datatype="html">
         <source>1.1.1. Personal information that the User provides about himself independently when registering (creating a Service account) or in the process of using the Service, including the user&apos;s personal data.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">10,11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2867133129621242741" datatype="html">
         <source>1.1.2. Data that is automatically transmitted to the Service Operator in the process of using the Service using the software installed on the User&apos;s device, including, but not limited to: IP address and other information about the device from which access is made, information from cookies, information about the User&apos;s browser (or another program accessing the Service), access time, address of the requested page.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">11,12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5404809276850011249" datatype="html">
         <source>1.2. This Policy applies only to the Service. The Service Operator does not control and is not responsible for the websites of third parties, to which the User can follow the links available on the Service website.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6954014278392655332" datatype="html">
         <source>1.3. Except for cases of User Identification on the grounds and in the manner provided for by the Offer and the current legislation of the your current country, the Service Operator does not verify the accuracy of the information provided by the User, while the Service Operator proceeds from the fact that the User provides reliable and sufficient information and maintains this information up to date . state. If it is established that the User provided information that does not correspond to reality, the Service Operator has the right to suspend or terminate the User&apos;s access to the Service at any time. The User agrees that in case of providing false data about himself, the User&apos;s claims against the Service Operator related to the provision of the Service will have no legal effect.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">13,15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4991955180483047867" datatype="html">
         <source>2. Purposes of collecting and processing personal information of Users:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">15,16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1715963125317215088" datatype="html">
         <source>2.1. The Service Operator collects and stores only the personal information that is necessary for the provision of the Service and the provision of services in accordance with the Offer.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">16,17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1660560957614729719" datatype="html">
         <source>2.2. The Service Operator may use the User&apos;s personal information for the following purposes:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">17,18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6254109144033566482" datatype="html">
         <source>2.2.1. user identification;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">18,19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7761405936616664774" datatype="html">
         <source>2.2.2. Improving the security of using the Service;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">19,20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7545191748863298821" datatype="html">
         <source>2.2.3. Communication with the User, including sending notifications, requests and information regarding the use of the Service, the provision of services, as well as processing requests and applications from the User;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">20,21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8440254754907626940" datatype="html">
         <source>2.2.4. Improving the quality of the Service, the convenience of its use, the development of new services;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">21,22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8263580578124360456" datatype="html">
         <source>2.2.5. Execution of the Client&apos;s order to transfer funds and / or return the balance of funds.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">22,24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4491081510594170555" datatype="html">
         <source>3. Conditions for processing the User&apos;s personal information and its transfer to third parties:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">24,25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7966936113451366899" datatype="html">
         <source>3.1. The Service Operator stores information about Users in accordance with the requirements of applicable law, this policy and the internal regulatory documents of the Service Operator.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">25,26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1387416799622393447" datatype="html">
         <source>3.2. The Service Operator ensures the confidentiality of the User&apos;s information.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">26,27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9223239265611580131" datatype="html">
         <source>3.3. The Service Operator has the right to transfer the User&apos;s personal information to third parties in the following cases:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">27,28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4390469467567528024" datatype="html">
         <source>3.3.1. The user has expressed his consent to such actions;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">28,29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7297398028883655361" datatype="html">
         <source>3.3.2. The translation is necessary to complete the User&apos;s order;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">29,30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7299472481993374371" datatype="html">
         <source>3.3.3. The transfer is provided for by UFOPay or other applicable legislation within the framework of the procedure established by law;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">30,31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7708972330961491512" datatype="html">
         <source>3.3.4. In order to ensure the possibility of protecting the rights and legitimate interests of the Service Operator or third parties in cases where the Service Operator has reasonable grounds to believe that the User violates the terms of the Offer and / or the requirements of applicable law.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">31,32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6080362077458306490" datatype="html">
         <source>3.3. When processing personal data of Users, the Service Operator is guided by the legislation of the your current country.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">32,34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6286532212236212813" datatype="html">
         <source>4. Measures applied to protect the personal information of Users:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">34,35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="419761793625101841" datatype="html">
         <source>4.1. The Service Operator takes the necessary and sufficient organizational and technical measures to protect the User&apos;s personal information from unauthorized or accidental access, destruction, modification, blocking, copying, distribution, as well as from other illegal actions of third parties with it.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">35,37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6253526878982052596" datatype="html">
         <source>5. Changing the Privacy Policy. Applicable right.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">37,38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4787171069910557318" datatype="html">
         <source>5.1. The Service Operator has the right to make changes to this Privacy Policy. The new version of the Policy comes into force from the moment it is posted, unless otherwise provided by the new version of the Policy. The current version is always on the website of the Service.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">38,40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6103888197612753516" datatype="html">
         <source>Google ReCaptcha</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">40,41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3928480516329114824" datatype="html">
         <source>UFOPay uses the ReCaptcha system on the Sites and Services. Your use of the ReCaptcha system is subject to the terms of the Google Privacy Policy and the terms of use of the system.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">41,42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6441794811756031525" datatype="html">
         <source>The ReCaptcha system is only used to protect against spam and illegal use.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/privacy_policy/privacy_policy.component.html</context>
+          <context context-type="sourcefile">src/app/pages/privacy_policy/privacy_policy.component.html</context>
           <context context-type="linenumber">42,44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8364309938383915497" datatype="html">
         <source> Home </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3081196362892440768" datatype="html">
         <source> Send and Receive </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4052501716764926932" datatype="html">
         <source> Wallet </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2919237623258423230" datatype="html">
         <source> History </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4349446481980481506" datatype="html">
         <source> Help </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6888797559367695264" datatype="html">
         <source>Balance</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">58,59</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">40,41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3487607709461325700" datatype="html">
         <source>Tranfer Money </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">67,68</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">45,46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7723102638135781698" datatype="html">
         <source>Recent Activity</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">75,77</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">53,55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4527942393166926271" datatype="html">
         <source>See when money comes in, and when it goes out. You’ll find your recent UFOPay history here.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">77,78</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">55,56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7908040842701875325" datatype="html">
         <source>Show all </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">84</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2821179408673282599" datatype="html">
         <source>Home</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">103,105</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8402696305361715603" datatype="html">
-        <source>Transfer</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">111,112</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">80,82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2575486924758487590" datatype="html">
         <source>Wallet</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">115,116</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">98,100</context>
         </context-group>
       </trans-unit>
       <trans-unit id="186236568870281953" datatype="html">
         <source>History</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">119,120</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">130,132</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7911416166208830577" datatype="html">
         <source>Help</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/profile/profile.component.html</context>
-          <context context-type="linenumber">123,124</context>
+          <context context-type="sourcefile">src/app/pages/profile/profile.component.html</context>
+          <context context-type="linenumber">150,151</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5342432350421167093" datatype="html">
         <source>First name</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/register/register.component.html</context>
+          <context context-type="sourcefile">src/app/pages/register/register.component.html</context>
           <context context-type="linenumber">4,5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2853180186097394309" datatype="html">
         <source>Second name</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/register/register.component.html</context>
+          <context context-type="sourcefile">src/app/pages/register/register.component.html</context>
           <context context-type="linenumber">8,9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2772668468223898232" datatype="html">
         <source>Birthday</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/register/register.component.html</context>
+          <context context-type="sourcefile">src/app/pages/register/register.component.html</context>
           <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3782563238994348625" datatype="html">
         <source>Confirm password</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/register/register.component.html</context>
+          <context context-type="sourcefile">src/app/pages/register/register.component.html</context>
           <context context-type="linenumber">25,26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3225005000912168550" datatype="html">
         <source>I am 13 years of age or older and agree to the terms of the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;form__link&quot;&gt;"/>User Agreement<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> and the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;form__link&quot;&gt;"/>UFOPay Privacy Policy<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/register/register.component.html</context>
-          <context context-type="linenumber">29,30</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3301086086650990787" datatype="html">
-        <source>Register</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/register/register.component.html</context>
-          <context context-type="linenumber">36,37</context>
+          <context context-type="sourcefile">src/app/pages/register/register.component.html</context>
+          <context context-type="linenumber">29,31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6307276899378966203" datatype="html">
         <source>Have account? Login</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/register/register.component.html</context>
-          <context context-type="linenumber">37,38</context>
+          <context context-type="sourcefile">src/app/pages/register/register.component.html</context>
+          <context context-type="linenumber">38,39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="565785050403921162" datatype="html">
         <source>User agreement</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">3,5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6554149076713738407" datatype="html">
         <source>1. Preamble</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">5,6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3234624875363242483" datatype="html">
         <source>1.1. This User Agreement for UFOPay Services (hereinafter referred to as the “Agreement”) is an agreement between the Client (hereinafter referred to as “You”) on the one hand and UFOPay on the other hand, referred to as “we”, or “us”.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">6,8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8479788225388171325" datatype="html">
         <source>2. About payment</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">8,9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7756228052410969468" datatype="html">
         <source>2.1. UFOPay is an e-wallet service that allows you to store and exchange various currencies, accept payments, transfer money and pay for various services.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">9,11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7949769674011590268" datatype="html">
         <source>3. Scope of this agreement</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">11,12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8339062601178119501" datatype="html">
         <source>3.1. This Agreement governs your use of all UFOPay Services, the opening, use and termination of your UFOPay Account and other related payment services referred to herein. Together with our Privacy Policy and any other terms, they constitute an agreement between you and us.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">12,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7230864790674918816" datatype="html">
         <source>3.2. Use of additional services may require you to agree to additional terms and conditions, which will be communicated to you when ordering or using such Services.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">13,14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6648592387909489840" datatype="html">
         <source>3.3. Before you can use any UFOPay Services, you must:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">14,15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5632241276112802650" datatype="html">
         <source>3.3.1. Read this Agreement and check the box confirming that you accept all the terms contained in this Agreement and the agreements on the page &quot;User Agreement&quot;, &quot;Privacy Policy&quot;;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">15,16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="77768491770258955" datatype="html">
         <source>3.3.2. Provide us with such information, documentation and photographs as we may reasonably request in accordance with our regulatory obligations.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">16,18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6029631758737935433" datatype="html">
         <source>4. Account opening</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">18,19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4591420774093746044" datatype="html">
         <source>4.1. Your UFOPay account is an electronic wallet that allows you to send and receive payments.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">19,20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="524201654275521317" datatype="html">
         <source>4.2. In order to use our services, you must first open a UFOPay account by registering your details on our website and providing the required documents and requested information.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">20,21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7889229293228074311" datatype="html">
         <source>4.3. If you are an individual, you must be at least 14 years of age to use our services and by opening a UFOPay account you represent that you are 14 years of age or older.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">21,22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3188077070713243874" datatype="html">
         <source>4.4. You can only open a UFOPay account if it is permitted by law in your country of residence. By opening a UFOPay account, you represent and warrant to us that your opening of a UFOPay account does not violate any laws or regulations applicable to you. You must pay us the amount of any damages we suffer as a result of your violation of this section.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">22,23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1527825724404384363" datatype="html">
         <source>4.5. We are required by law to carry out all necessary security and customer due diligence checks (including any parties involved in your transaction, such as the recipient) in order to provide you with any UFOPay Services. You agree to comply with any of our requests for additional information and to provide such information in a format acceptable to us. In addition, you agree that we may make, directly or through any third party, any requests that we deem necessary to verify the information you have provided to us, including checking commercial databases.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">23,24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6604707385240347948" datatype="html">
         <source>4.6. All information you provide to us must always be complete, accurate and truthful. You must update this information whenever it changes. We are not responsible for any financial loss resulting from your non-compliance. We may ask you at any time to confirm the accuracy of your information and/or provide additional supporting documents.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">24,26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="219348749697015830" datatype="html">
         <source>5. Account closing</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">26,27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7859652862259822035" datatype="html">
         <source>5.1. You may terminate your UFOPay account at any time by submitting an account termination request in the SETTINGS section of your account. You must provide a reason for such closure.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">27,28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="288747968567711729" datatype="html">
         <source>5.2. If there is a balance in your UFOPay account at the time of closing, we will ask you to withdraw money to your card within 30 days. After this period, you will not be able to access your UFOPay account.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">28,29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="413190938610991025" datatype="html">
         <source>5.3. If you would like to access UFOPay transaction history after closing your UFOPay account, you will need to contact support and request information. You can do this within 1 year from the date your UFOPay account was closed.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">29,30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="551985650647659920" datatype="html">
         <source>5.4. We reserve the right to carry out any necessary checks for money laundering, terrorist financing, fraud or other illegal activity before allowing a withdrawal of your money, including with regard to returning any money to you after you have closed your account with UFOPay.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">30,32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4162230349633972250" datatype="html">
         <source>6. Identity verification</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">32,33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8575216746391882526" datatype="html">
         <source>6.1. You agree to cooperate with all requests made by us in connection with your UFOPay account to identify or authenticate your identity or to verify your sources of funding or UFOPay transactions.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">33,34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1203156015703729594" datatype="html">
         <source>6.2. This may include, but is not limited to, requesting additional information that will allow us to reasonably identify you, including requiring you to take steps to verify ownership of your phone number or payment instruments, or verifying your information against third party databases or other sources.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">34,35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5550841911788170552" datatype="html">
         <source>6.3. We reserve the right to close, suspend or restrict access to your UFOPay Account in the event that we are unable to obtain, verify such information or you fail to comply with our requests in accordance with a clause of this Agreement.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">35,36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2022178217932570178" datatype="html">
         <source>6.4. To personalize the account, we request an identity document - a national identity card, an internal passport, a foreign passport, a driver&apos;s license. Identity documents of unrecognized states are not accepted. The Help Desk may require a photo of the user&apos;s identity document next to their face in order to verify the authenticity of the documents.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">36,37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2918243781414287742" datatype="html">
         <source>6.5. Video verification may also be required in case of doubts about the authenticity of documents. For video verification, we ask the User to provide us with their Skype login and a convenient time to call. At the specified time, the Support Service contacts the User.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">37,38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8154514315934637550" datatype="html">
         <source>6.6. When all documents satisfy all requirements, the status of the User account changes from registered to verified.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">38,39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5520167020418348017" datatype="html">
         <source>6.7. Customer Support may refuse to personalize your account due to UFOPay&apos;s internal policies. We have a list of countries whose representatives cannot go through the personalization process.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">39,40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7408014187135608234" datatype="html">
         <source>6.8. Account personalization is not available for users under the age of 14.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">40,42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2819570335047760189" datatype="html">
         <source>7. Withdrawal of money</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">42,43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1497141806535230677" datatype="html">
         <source>7.1. You can request a withdrawal of all or part of the money held in your UFOPay account at any time.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">43,44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1990336697602764555" datatype="html">
         <source>7.2. Your money can be withdrawn to your bank card by selecting the appropriate method (to a bank card) in the &quot;Transfer&quot; section of your UFOPay Account.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">44,45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3883668247575285655" datatype="html">
         <source>7.3. If you do not want to go through the verification procedure on our website immediately after a successful payment, the withdrawal to the card will be made automatically 36 hours after payment.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">45,46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1457890751897892361" datatype="html">
         <source>7.4. Please note that it may take 1 to 30 business days for a refund to be credited to your card, depending on the bank that issued your card.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">46,48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5933453611751756605" datatype="html">
         <source>8. Account replenishment</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">48,49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5154455653913631916" datatype="html">
         <source>8.1. In order to fund your UFOPay account, you will need to fund your account using a credit card or any other method that we make available to you from time to time.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">49,51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5027053476619822703" datatype="html">
         <source>9. Restrictions on the use of services</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">51,52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1842002341196159742" datatype="html">
         <source>9.1. You are not permitted to use the UFOPay Services for any illegal purpose, including, but not limited to, fraud and money laundering, financing of terrorist organizations.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">52,53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2975474545134591525" datatype="html">
         <source>9.2. It is prohibited to use the UFOPay Services for any activity related to the following categories of goods and services:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">53,54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6985856860218689060" datatype="html">
         <source>9.2.1. prescription drugs;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">54,55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7608078760086842291" datatype="html">
         <source>9.2.2. Narcotic, psychotropic and hallucinogenic drugs and other controlled substances;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">55,56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4967615572615875755" datatype="html">
         <source>9.2.3. Tobacco and smoking products;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">56,57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2825547222530711200" datatype="html">
         <source>9.2.4. Precious stones and metals and products from them;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">57,58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1695033331123880691" datatype="html">
         <source>9.2.5. used cosmetics;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">58,59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6134727929956602026" datatype="html">
         <source>9.2.6. malware;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">59,60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="343722870878662227" datatype="html">
         <source>9.2.7. Weapons, firearms and ammunition;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">60,61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5516252005141191719" datatype="html">
         <source>9.2.8. Dangerous and perishable goods;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">61,62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2801500639710784214" datatype="html">
         <source>9.2.9. Personal data of individuals;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">62,63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6065610832598066889" datatype="html">
         <source>9.2.10. Illegal gambling activity;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">63,64</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1124140726270227534" datatype="html">
         <source>9.2.11. Illegal materials or services of a sexual nature;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">64,65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2636078321137797677" datatype="html">
         <source>9.2.12. counterfeit products;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">65,66</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6683306385604047953" datatype="html">
         <source>9.2.13. Any other goods prohibited by law.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">66,67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3658459534262822827" datatype="html">
         <source>9.3. UFOPay will report any suspicious activity and cooperate with any relevant law enforcement or regulatory authorities.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">67,68</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1898918066039568834" datatype="html">
         <source>9.4. Failure to comply with clause 10 of this Agreement constitutes a material breach of the terms under which you are authorized to use the UFOPay Services and may result in us taking all or any of the following actions:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">68,69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8622732815673232370" datatype="html">
         <source>9.4.1. Immediate, temporary or permanent termination of your right to use our website;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">69,70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1696911181581133052" datatype="html">
         <source>9.4.2. Immediate, temporary or permanent deletion of any messages or materials uploaded by you to our website;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">70,71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8192245556017634328" datatype="html">
         <source>9.4.3. Issuing you a warning;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">71,72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9131744075259300395" datatype="html">
         <source>9.4.4. Litigation against you to recover all costs on an indemnity basis (including, without limitation, reasonable administrative and legal costs) incurred as a result of the breach;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">72,73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6269093408959690853" datatype="html">
         <source>9.4.5. Further legal action against you; and/or</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">73,74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2252921746211998670" datatype="html">
         <source>9.4.6. Disclosure of such information to law enforcement authorities at our sole discretion; </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">74,75</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5795911532922633031" datatype="html">
         <source>9.4.7. We exclude liability for actions taken in response to a violation of Article 10. The responses described are not limited, and we may take any other action we reasonably deem necessary.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">75,77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6167872464542992602" datatype="html">
         <source>10. Restrictions on operations</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">77,78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1472030964723433085" datatype="html">
         <source>10.1. We reserve the right, at our sole discretion, to set UFOPay transaction limits based on criteria determined by us and not subject to disclosure.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">78,79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2395921480856569977" datatype="html">
         <source>10.2. You can view some of these UFOPay transaction limits by logging into your UFOPay account.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">79,81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7765224487819320402" datatype="html">
         <source>11. No guarantee</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">81,82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="120863663435741790" datatype="html">
         <source>11.1. UFOPay services are provided on an &quot;as is&quot;, &quot;as available&quot; basis and without any representations or warranties, express, implied or statutory. We and UFOPay employees, directors, agents, joint ventures, employees and suppliers make no representations or warranties with respect to the services or content, materials, information or features available through the UFOPay Services, used or available through the Services. UFOPay or for any breach of security related to the transmission of confidential information through the UFOPay Services.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">82,84</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4477660786756426821" datatype="html">
         <source>12. General responsibility</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">84,85</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2968663269151009298" datatype="html">
         <source>12.1. You are solely responsible for using the UFOPay Services in accordance with this Agreement and the requirements of applicable law.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">85,86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="418474340184533106" datatype="html">
         <source>12.2. You are solely responsible for taking all measures to ensure the security of transactions conducted through the UFOPay Account in accordance with this Agreement and applicable law.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">86,87</context>
         </context-group>
       </trans-unit>
       <trans-unit id="681204689309056163" datatype="html">
         <source>12.3. You are solely responsible for all damages resulting from your use of anonymous proxy servers, anonymous SOCKS servers, anonymous networks (such as &quot;tor&quot;) or other technologies and/or tools that allow anonymous use of the UFOPay Services, which is strictly prohibited by this agreement.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">87,88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="941055244883388001" datatype="html">
         <source>12.4. You are solely responsible for all losses due to malware (backdoors, worms, trojans, viruses, rootkits, malicious payloads, and any other malicious software) and your ignorance. PC.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">88,89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1450240518260003148" datatype="html">
         <source>12.5. You need:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">89,90</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2513711162727940215" datatype="html">
         <source>12.5.1. Use the UFOPay Services only through legitimate service providers (internet and mobile operators) and communication methods;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">90,91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7933820098715222531" datatype="html">
         <source>12.5.2. Install the following software on your computer, mobile phone or other device through which you use the UFOPay Services: updated anti-virus software (the latest update must be done before logging into your UFOPay account), updated versions of Firefox, Opera, Internet Explorer, Google Chrome or other web browser (or web application), an updated version of the operating system;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">91,92</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7658593506988593583" datatype="html">
         <source>12.5.3. Comply with applicable laws, including but not limited to anti-money laundering, anti-terrorism, personal data protection, tax, banking and currency laws.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">92,93</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2812881279128271407" datatype="html">
         <source>12.6. It is your responsibility to ensure that you regularly log into your UFOPay account and review UFOPay&apos;s transaction history regularly, and promptly report any problems, apparent errors or unauthorized transactions to UFOPay in a timely manner. Failure to contact us in a timely manner may result in the loss of money or important rights.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">93,94</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8280307277094884994" datatype="html">
         <source>12.7. You are responsible for keeping your contact information stored in your UFOPay profile up to date.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">94,95</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3908744692844651094" datatype="html">
         <source>12.8. If you do not notify us without undue delay of any loss of your password or other event that could reasonably be expected to compromise the security of your UFOPay account after you become aware of such event, in which case you will be liable for damages incurred as long as you notify us.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">95,96</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8147471812502915007" datatype="html">
         <source>12.9. In the event of an incorrect or misdirected payment, we will take reasonable steps to help you trace and recover such payments.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">96,97</context>
         </context-group>
       </trans-unit>
       <trans-unit id="314301958708588950" datatype="html">
         <source>12.10. We do not guarantee that the UFOPay Services will be uninterrupted or error free. We are not responsible for any interruption of service or deterioration in the quality of intermediary services on which we rely in the performance of our obligations under this Agreement, including, but not limited to, system failures or other failures that may affect the receipt, processing, acceptance, completion or settlement UFOPay Transactions or UFOPay Services.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">97,98</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2750816060360378586" datatype="html">
         <source>12.11. We are not liable for any consequential or consequential damages, including but not limited to lost profits, loss of business and loss of goodwill. We are not responsible for any damages resulting from our compliance with legal and regulatory requirements.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">98,99</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3845919228547076871" datatype="html">
         <source>12.12. Our obligations under this Agreement are limited to providing you with an online wallet and related payment services, and we are not responsible for the quality, performance or any indirect results of products and/or services purchased using the UFOPay Services.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">99,100</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2271995461907665435" datatype="html">
         <source>12.13. We are not responsible for assessing or paying any taxes, duties or other fees associated with your use of your UFOPay account or the services provided under this Agreement.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">100,101</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3407081499655517956" datatype="html">
         <source>12.14. Reimbursement. You agree to defend us, indemnify or indemnify us and hold us harmless from any claims, demands, costs or expenses (including legal fees, fines or penalties) that we incur or incur as a result of your breach of this Agreement or as a result of your breach, any applicable law or regulation and/or use of the Services. This provision shall survive the termination of the relationship between you and us.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">101,103</context>
         </context-group>
       </trans-unit>
       <trans-unit id="106528577891742489" datatype="html">
         <source>13. Change of conditions</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">103,104</context>
         </context-group>
       </trans-unit>
       <trans-unit id="104552607920812776" datatype="html">
         <source>13.1. We may unilaterally amend this Agreement at any time by posting an updated version (including Tariffs) on our website.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">104,105</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7497087449661192625" datatype="html">
         <source>13.2. The revised version will be effective at the time of publication.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">105,106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3583483996519201572" datatype="html">
         <source>13.3. The Client&apos;s use of the UFOPay Services after the entry into force of any changes will be deemed the Client&apos;s unconditional acceptance of such changes.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">106,108</context>
         </context-group>
       </trans-unit>
       <trans-unit id="129593684574656948" datatype="html">
         <source>14. Termination and suspension</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">108,109</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7308254269806512861" datatype="html">
         <source>14.1. UFOPay, in its sole discretion, may terminate this Agreement or any related payment service at any time by giving you two months&apos; notice. Termination of this Agreement will not affect our rights or your obligations under this Agreement.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">109,110</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4717777673573855206" datatype="html">
         <source>14.2. Each UFOPay account that remains inactive for 36 months will be automatically terminated and this Agreement will terminate. Ongoing management of inactive accounts will also be charged after your UFOPay account is closed. This provision shall survive the termination of the relationship between you and us.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">110,111</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4062404900267921368" datatype="html">
         <source>14.3. You may terminate this Agreement at any time by giving us one month&apos;s notice. Such notification will be sent by email.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">111,112</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7024602210620841718" datatype="html">
         <source>14.4. We may suspend or terminate your UFOPay account at any time without notice if:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">112,113</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7156226442987177576" datatype="html">
         <source>14.4.1. You commit a material breach of any term of this Agreement and (if such breach is recoverable) fail to remedy that breach within 30 days of receipt of written notice thereof;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">113,114</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8277488843800942849" datatype="html">
         <source>14.4.2. You repeatedly violate any of the terms of this Agreement in a manner that reasonably substantiates the belief that his behavior is inconsistent with his intention or ability to comply with the terms of this Agreement;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">114,115</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4467636444892432235" datatype="html">
         <source>14.4.3. You are subject to bankruptcy, insolvency, liquidation or other similar event;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">115,116</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7818729351467098491" datatype="html">
         <source>14.4.4. The operation of laws, payment scheme rules, rules or guidelines of regulatory bodies or any changes in them or their introduction (or changes in their interpretation or application) means that they are illegal or contrary to any such laws, rules, regulations or provisions. whereas either party must perform or give effect to any of its obligations under this Agreement, and such obligation cannot be immediately severed from this Agreement;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">116,117</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7353377607056025619" datatype="html">
         <source>14.4.5. We have reason to believe that you are in any way involved in any fraudulent activity, money laundering, terrorist financing or other criminal activity;</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">117,118</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7851182905128323152" datatype="html">
         <source>14.4.6. We have reasonable suspicion that your UFOPay account has been or is being used without your permission or for fraudulent purposes and we will notify you either prior to the suspension or, if prior notice is not possible due to circumstances, immediately after the suspension, unless we it is prohibited by law to notify you.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">118,119</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4127196853532789547" datatype="html">
         <source>14.5. Termination of this Agreement requires the closure of your UFOPay Account in accordance with clause 7. UFOPay will process your remaining balance in accordance with this Agreement.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">119,121</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2429494418494718211" datatype="html">
         <source>15. Complaints</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">121,122</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8739383728994853296" datatype="html">
         <source>15.1. Any complaints about us or the services we provide should be addressed to us first by contacting customer support. We will mail or email you an acknowledgment of receipt of your complaint within 48 hours of receiving your complaint in accordance with our complaint handling process.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">122,123</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1026207980916642041" datatype="html">
         <source>15.2. We will try to provide you with an answer or resolution to your complaint within 30 days. If this is not possible due to unforeseen circumstances or lack of information, we will contact you.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">123,125</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1881044644978483545" datatype="html">
         <source>16. Miscellaneous</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">125,126</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8712462237885722847" datatype="html">
         <source>16.1. In order to use other UFOPay Services, you may be asked to accept other Agreements and/or terms and conditions, either with us or with a third party.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">126,127</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9055232348405899809" datatype="html">
         <source>16.2. No person other than you has any rights under this Agreement.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">127,128</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6018214835599020675" datatype="html">
         <source>16.3. Your UFOPay Account is personal and you may not transfer any rights under this Agreement to third parties.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">128,129</context>
         </context-group>
       </trans-unit>
       <trans-unit id="827053352042417976" datatype="html">
         <source>16.4. Your UFOPay Account is governed by and construed in accordance with the laws of the your current country. Any dispute under this Agreement or otherwise in connection with your UFOPay Account shall be settled exclusively in the courts of the your country.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">129,130</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2830710518228520636" datatype="html">
         <source>16.5. If any part of this Agreement is held by a court of competent jurisdiction to be invalid, illegal or unenforceable, such part will be severed from the rest of the Agreement, which will remain valid and enforceable to the fullest extent permitted by law.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">130,131</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1545038625606849520" datatype="html">
         <source>16.6. The definitions set out in Appendix 1 apply to this Agreement.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">131,133</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1134144981225661268" datatype="html">
         <source>Appendix 1 - Definitions</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">133,134</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2501431409540789007" datatype="html">
         <source>&quot;Account&quot; or &quot;UFOPay Account&quot; means an electronic wallet within the UFOPay system that allows a UFOPay user to send and receive payments.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">134,135</context>
         </context-group>
       </trans-unit>
       <trans-unit id="68640271604328308" datatype="html">
         <source>&quot;UFOPay Exchange&quot; means a service that allows you, using electronic money in one currency, to buy electronic money in another currency at our exchange rates.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">135,136</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7937137975137488538" datatype="html">
         <source>&quot;UFOPay Bulk Payments&quot; means a service that allows you to automatically distribute bulk payments to other accounts, cards and various UFOPay payment systems in many countries around the world.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">136,137</context>
         </context-group>
       </trans-unit>
       <trans-unit id="977215053697980473" datatype="html">
         <source>&quot;UFOPay B2B&quot; means a service that allows any company that has its own website on the Internet to enter into an agreement to &quot;accept payments&quot; from UFOPay, which will allow customers to pay for various goods and services online.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">137,138</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5879871598264635870" datatype="html">
         <source>&quot;UFOPay Payment System&quot;, &quot;UFOPay System&quot; or &quot;UFOPay&quot; or &quot;UP&quot; means a web platform operated by us that end users can use as a gateway to register for and access their UFOPay account.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">138,139</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1038179165936544424" datatype="html">
         <source>&quot;UFOPay Payments&quot; means a service that allows you to make payments for services and goods on an external website connected to the UFOPay system from your account or other payment system.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">139,140</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6739202802492154710" datatype="html">
         <source>&quot;UFOPay Services&quot; means payment system services, including UFOPay Wallet, UFOPay Transfers, UFOPay Payments, UFOPay Bulk Payments, UFOPay Merchant, UFOPay Exchange and any other services.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">140,141</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5626415555729589168" datatype="html">
         <source>&quot;UFOPay Transaction&quot; means any transaction made by a UFOPay user through the UFOPay system.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">141,142</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6325111409487888620" datatype="html">
         <source>&quot;UFOPay Transfers&quot; means a worldwide instant electronic payment service.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">142,143</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5954902489690312144" datatype="html">
         <source>&quot;UFOPay User&quot; or &quot;Customer&quot; means a natural or legal person who is an eligible client of the UFOPay Payment System.</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/user_agreement/user_agreement.component.html</context>
+          <context context-type="sourcefile">src/app/pages/user_agreement/user_agreement.component.html</context>
           <context context-type="linenumber">143,145</context>
         </context-group>
       </trans-unit>

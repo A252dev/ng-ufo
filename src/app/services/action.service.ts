@@ -28,4 +28,13 @@ export class ActionService {
     )
   }
 
+  addBalance(balanceRequest: any): Observable<any> {
+    console.log(balanceRequest);
+    let headers = new HttpHeaders();
+    headers = headers.set("Authorization", "Bearer " + localStorage.getItem("jwt"));
+    return this.http.post(
+      this.settings.getUrl() + 'profile/addbalance', balanceRequest, { headers: headers }
+    )
+  }
+
 }

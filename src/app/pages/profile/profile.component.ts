@@ -1,20 +1,18 @@
-import { DOCUMENT, NgClass } from "@angular/common";
-import { Component, Inject, OnInit } from "@angular/core";
+import { NgClass, NgFor } from "@angular/common";
+import { Component, Input, OnInit } from "@angular/core";
 import { JwtService } from "../../services/jwt.service";
-import { routes } from "../../app.routes";
-import { ActivatedRoute, Router } from "@angular/router";
-import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from "@angular/forms";
-import { ActionService } from "../../services/action.service";
-import { AsyncLocalStorage } from "async_hooks";
+import { FormGroup, FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { TransferSection } from "../../components/UI/profile/transfer-section/tranfer-section.component";
-import { delay } from "rxjs";
+import { AddBalanceSection } from "../../components/UI/profile/add-balance-section/add-balance-section";
 
 @Component({
     selector: 'profile-page',
     standalone: true,
     imports: [
         NgClass, FormsModule, ReactiveFormsModule,
-        TransferSection
+        TransferSection,
+        AddBalanceSection,
+        NgFor
     ],
     templateUrl: './profile.component.html',
     styleUrl: '../../styles/profile.css'
@@ -22,23 +20,12 @@ import { delay } from "rxjs";
 
 export class Profile implements OnInit {
 
-    constructor(private service: JwtService,
-        private router: Router
-    ) { }
+    constructor(private service: JwtService) { }
 
     transferForm: FormGroup | undefined;
 
     ngOnInit(): void {
-
-        // if (localStorage.getItem('jwt') == null) {
-        //     console.log("jwt is null!!!");
-        //     this.router.navigateByUrl("login");
-        // } else {
-        //     this.profile();
-        // }
-        this.profile();
-        // window.location.reload();
-
+        // this.profile();
     }
 
     title: string;
@@ -71,6 +58,8 @@ export class Profile implements OnInit {
     CHF: number;
     THB: number;
     USD: number;
+
+    @Input() transactionHistory;
 
     profile() {
 
@@ -109,10 +98,18 @@ export class Profile implements OnInit {
                 this.USD = response.info[1].USD;
             }
         )
+
+        this.service.getHistory().subscribe(
+            (response) => {
+                this.transactionHistory = response;
+                console.log(response);
+            }
+        )
+
     }
 
-    home: boolean = true;
-    tranfer: boolean = false;
+    home: boolean = false;
+    tranfer: boolean = true;
     wallet: boolean = true;
     history: boolean = true;
     help: boolean = true;

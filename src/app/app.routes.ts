@@ -12,11 +12,12 @@ import { PrivacyPolicy } from './pages/privacy_policy/privacy_policy.component';
 import { DataProtection } from './pages/data_protection/data_protection.component';
 import { Profile } from './pages/profile/profile.component';
 import { AppLayout } from './components/layout/index/layout.component';
+import { profileGuard } from './components/profile.guard';
 
 export const routes: Routes = [
 
     // Ссылки для всех страниц
-    
+
     { path: "", component: AppLayout },
 
     { path: "user_agreement", component: UserAgreements },
@@ -26,6 +27,11 @@ export const routes: Routes = [
 
     { path: "login", component: AppLogin },
     { path: "register", component: AppRegister },
+
+    // for debug
     { path: "profile", component: Profile },
-        
+
+    // for release
+    // { path: "profile", component: Profile, canActivate: [profileGuard] },
+
 ];

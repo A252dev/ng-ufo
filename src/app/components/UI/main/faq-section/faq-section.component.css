@@ -1,0 +1,23 @@
+/* FAQ */
+
+.q__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 25px 0px;
+}
+
+.q__title{
+    color: #4d6cfa;
+    font-weight: 500;
+    font-size: 2.0rem;
+    margin-bottom: 5px;
+}
+
+.q__answer{
+    color: #000;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
