@@ -25,7 +25,7 @@ export class Profile implements OnInit {
     transferForm: FormGroup | undefined;
 
     ngOnInit(): void {
-        // this.profile();
+        this.profile();
     }
 
     title: string;
